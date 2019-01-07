@@ -18,11 +18,11 @@ if(err){
 
 const db = client.db('TodoApp')
 
-db.collection('Users').find().count().then((coun) =>{
-  console.log(coun);
-  },(err) =>{
-  console.log('unable to fetch data', err);
-  });
+// db.collection('Users').find().count().then((coun) =>{
+//   console.log(coun);
+//   },(err) =>{
+//   console.log('unable to fetch data', err);
+//   });
 
 // db.collection('Users').find().toArray().then((docs) =>{
 // console.log('Users');
